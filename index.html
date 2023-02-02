@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Day View Calendar</title>
+    <link rel="stylesheet" type="text/css" href="styles/calendar.css">
+</head>
+<body>
+<header class="calendar-header">Day View Calendar with Events</header>
+<main>
+    <section class="calendar-container">
+        <div id="calendar-timeline" class="calendar-timeline">
+        </div>
+        <div id="calendar-events" class="calendar-events"></div>
+    </section>
+</main>
+<footer id="calendar-footer">
+</footer>
+<!-- load scripts at end to improve performance-->
+<script src="src/day-calendar.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>
